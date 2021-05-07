@@ -1,0 +1,43 @@
+[
+    {
+        "name" : "Lebra",
+        "price" : "45.89",
+        "description" : "Cute little puppy",
+        "images" : [{
+            "public_id" : "products/dsvbpny402gelwugv2le",
+            "url" :"https://res.cloudinary.com/bookit/image/upload/v1614877995/products/61oXGZ60GfL_fixco9.jpg"
+        }],
+        "category" : "Dogs"
+    },
+    {
+        "name" : "Meow",
+        "price" : "315.00",
+        "description" : "Cute little cat",
+        "images" : [{
+            "public_id" : "products/61oXGZ60GfL_fixco9",
+            "url" : "https://res.cloudinary.com/bookit/image/upload/v1614877995/products/61oXGZ60GfL_fixco9.jpg"
+        }],
+        "category" : "Cats"
+    },
+    {
+        "name" : "Goldeye",
+        "price" : "26.99 ",
+        "description" : "Cute little Bird",
+        "images" : [{
+            
+                "public_id" : "products/wmoa49q9e70ze9xtcra2",
+                "url" : "https://res.cloudinary.com/bookit/image/upload/v1606293153/products/wmoa49q9e70ze9xtcra2.jpg"
+            },
+            {
+                "public_id" : "products/i0k1wdwi5hrpmzwxvsds",
+                "url" : "https://res.cloudinary.com/bookit/image/upload/v1606293152/products/i0k1wdwi5hrpmzwxvsds.jpg" 
+            },
+            {
+                "public_id" : "products/bshmuo9qisfhz4azvnsd",
+                "url" : "https://res.cloudinary.com/bookit/image/upload/v1606293153/products/bshmuo9qisfhz4azvnsd.jpg"
+            }
+   ],
+        "category" : "Birds"
+    }
+   
+]
