@@ -37,7 +37,7 @@ const NewProduct = ({ history }) => {
 
         if (success) {
             history.push('/admin/products');
-            alert.success('Product created successfully');
+            alert.success('Pet added successfully');
             dispatch({ type: NEW_PRODUCT_RESET })
         }
 
@@ -89,7 +89,7 @@ const NewProduct = ({ history }) => {
                 <div className="col-12 col-md-10">
                     <Fragment>
                         <div className="wrapper my-5">
-                            <form className="" onSubmit={submitHandler} encType='multipart/form-data'>
+                            <form className="shadow-lg" onSubmit={submitHandler} encType='multipart/form-data'>
                                 <h1 className="mb-4">New Animal in the store</h1>
 
                                 <div className="form-group">

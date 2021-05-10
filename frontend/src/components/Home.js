@@ -28,7 +28,7 @@ const Home = ({match}) => {
         <Fragment>
           {loading ? <h1>Loading...</h1> :(
             <Fragment>
-               <h1 id="products_heading">Welcome to Pet Shop</h1>
+               <h1 id="products_heading">WELCOME TO THE PET SHOP</h1>
                 <section id="products" className="container mt-5">
                 <div className="row">
                 {products && products.map(product =>(

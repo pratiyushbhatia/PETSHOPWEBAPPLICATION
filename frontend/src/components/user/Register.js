@@ -1,5 +1,7 @@
 import React, { Fragment, useState, useEffect } from 'react'
 
+import MetaData from '../layout/MetaData'
+
 import { useDispatch, useSelector } from 'react-redux'
 import { register, clearErrors } from '../../actions/userActions'
 
@@ -62,11 +64,11 @@ const Register = ({ history }) => {
     return (
         <Fragment>
 
-            
+            <MetaData title={'Register User'} />
 
             <div className="row wrapper">
                 <div className="col-10 col-lg-5">
-                    <form className="" onSubmit={submitHandler} encType='multipart/form-data'>
+                    <form className ="shadow-lg" onSubmit={submitHandler} encType='multipart/form-data'>
                         <h1 className="mb-3">Register</h1>
 
                         <div className="form-group">

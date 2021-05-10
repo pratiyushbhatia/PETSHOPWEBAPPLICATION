@@ -33,7 +33,7 @@ const ProductsList = ({ history }) => {
         }
 
         if (isDeleted) {
-            alert.success('Product deleted successfully');
+            alert.success('Pet removed successfully');
             history.push('/admin/products');
             dispatch({ type: DELETE_PRODUCT_RESET })
         }

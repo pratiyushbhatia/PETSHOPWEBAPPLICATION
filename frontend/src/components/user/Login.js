@@ -1,5 +1,6 @@
 import React, { Fragment, useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import MetaData from '../layout/MetaData'
 
 
 import { useDispatch, useSelector } from 'react-redux'
@@ -38,11 +39,11 @@ const Login = ({ history, location }) => {
     return (
         <Fragment>
             
-
+            <MetaData title={'Login'} />
                     <div className="row wrapper">
                         <div className="col-10 col-lg-5">
-                            <form  onSubmit={submitHandler}>
-                                <h1 className="mb-3 mx-5">Login</h1>
+                            <form className="shadow-lg"  onSubmit={submitHandler}>
+                                <h1 className="mb-3">Login</h1>
                                 <div className="form-group">
                                     <label htmlFor="email_field">Email</label>
                                     <input
