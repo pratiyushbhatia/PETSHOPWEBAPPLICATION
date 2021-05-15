@@ -43,39 +43,6 @@ const Dashboard = () => {
 
                             <div className="row pr-4">
 
-                        
-                                <div className="col-xl-3 col-sm-6 mb-3">
-                                    <div className="card text-white bg-success o-hidden h-100">
-                                        <div className="card-body">
-                                            <div className="text-center card-font-size">View all Pets<br /> </div>
-                                        </div>
-                                        <Link className="card-footer text-white clearfix small z-1" to="/admin/products">
-                                            <span className="float-left">View</span>
-                                            <span className="float-right">
-                                                <i className="fa fa-angle-right"></i>
-                                            </span>
-                                        </Link>
-                                    </div>
-                                </div>
-                                
-
-
-                            
-                                <div className="col-xl-3 col-sm-6 mb-3">
-                                    <div className="card text-white bg-success o-hidden h-100">
-                                        <div className="card-body">
-                                            <div className="text-center card-font-size">Add new pets<br /></div>
-                                        </div>
-                                        <Link className="card-footer text-white clearfix small z-1" to="/admin/product">
-                                            <span className="float-left">Add</span>
-                                            <span className="float-right">
-                                                <i className="fa fa-angle-right"></i>
-                                            </span>
-                                        </Link>
-                                    </div>
-                                </div>
-
-
                                 <div className="col-xl-3 col-sm-6 mb-3">
                                     <div className="card text-white bg-danger o-hidden h-100">
                                         <div className="card-body">
