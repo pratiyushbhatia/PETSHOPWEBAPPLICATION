@@ -26,7 +26,7 @@ const ProductDetails = ({match}) => {
 
     const addToCart = () =>{
         dispatch(addItemToCart(match.params.id));
-        alert.success('Pet Booking Initiated')
+        
     }
 
 
@@ -65,11 +65,12 @@ const ProductDetails = ({match}) => {
                 <p>{product.description}</p>
                 <p id="product_price">Rs {product.price}</p>
 
-               
-               
+            
                 <button type="button" id="cart_btn" className="btn btn-primary d-inline ml-4" onClick={addToCart}>Book Now</button>
+                
                
                 <hr />
+            
                
                
              </div>
