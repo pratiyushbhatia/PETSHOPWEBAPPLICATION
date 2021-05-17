@@ -112,23 +112,7 @@ const ProcessOrder = ({ match }) => {
                                     </div>
                                     <hr />
                                 </div>
-
-                              
-
-                            </div>
-                        )}
-                    </Fragment>
-                </div>
-            </div>
-
-        </Fragment>
-    )
-}
-
-export default ProcessOrder
-/*
-
-<div className="col-12 col-lg-3 mt-5">
+                                <div className="col-12 col-lg-3 mt-5">
 <h4 className="my-4">Status</h4>
 
 <div className="form-group">
@@ -147,4 +131,41 @@ export default ProcessOrder
     Update Status
 </button>
 </div>
+
+                               
+                            </div>
+                        )}
+                    </Fragment>
+                </div>
+            </div>
+
+        </Fragment>
+    )
+}
+
+export default ProcessOrder
+
+
+/*
+ <div className="col-12 col-lg-3 mt-5">
+<h4 className="my-4">Status</h4>
+
+<div className="form-group">
+    <select
+        className="form-control"
+        name='status'
+        value={status}
+        onChange={(e) => setStatus(e.target.value)}
+    >
+        <option value="Processing">Processing</option>
+        <option value="Delivered">Pet Delivered to owner</option>
+    </select>
+</div>
+
+<button className="btn btn-primary btn-block" onClick={() => updateOrderHandler(order._id)}>
+    Update Status
+</button>
+</div>
+
+
 */

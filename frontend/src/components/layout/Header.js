@@ -34,7 +34,9 @@ const Header = () => {
               </div>
           </div>
 
-          
+          <div className="col-12 col-md-6 mt-2 mt-md-0">
+              <Route render={({ history }) => <Search history={history} />} />
+          </div>
 
           <div className="col-12 col-md-3 mt-4 mt-md-0 text-center">
               <Link to="/cart" style={{ textDecoration: 'none' }} >
@@ -76,3 +78,9 @@ const Header = () => {
                )
        }
 export default Header
+
+/*
+<div className="col-12 col-md-6 mt-2 mt-md-0">
+              <Route render={({ history }) => <Search history={history} />} />
+          </div>
+          */

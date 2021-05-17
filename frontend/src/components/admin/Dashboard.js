@@ -39,8 +39,6 @@ const Dashboard = () => {
                             <MetaData title={'Admin Dashboard'} />
 
 
-                           
-
                             <div className="row pr-4">
 
                                 <div className="col-xl-3 col-sm-6 mb-3">
@@ -60,6 +58,8 @@ const Dashboard = () => {
 
                                
                                </div>
+
+
 
 
                                 
